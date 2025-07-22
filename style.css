@@ -88,3 +88,34 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.contact-info {
+  display: block;
+  justify-content: center;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .yoga-img,
+  .weather-img,
+  .yogurt-img {
+    display: none;
+  }
+  .yoga-card,
+  .weather-app,
+  .yogurt-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
